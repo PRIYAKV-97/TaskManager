@@ -1,0 +1,126 @@
+:host {
+  display: block;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #1f2937;
+}
+
+.wrapper {
+  max-width: 580px;
+  margin: 2.5rem auto;
+  padding: 0 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.subtitle {
+  margin: 0.25rem 0 1.5rem;
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 1.25rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.req { color: #dc2626; }
+
+input, textarea {
+  padding: 0.55rem 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font: inherit;
+  font-size: 0.95rem;
+}
+
+input:focus, textarea:focus {
+  outline: 2px solid #2563eb;
+  border-color: transparent;
+}
+
+button {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.1rem;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+button:hover:not(:disabled) { background: #1d4ed8; }
+button:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.error-banner {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #991b1b;
+  padding: 0.75rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.field-err {
+  color: #dc2626;
+  font-size: 0.8rem;
+  margin-top: 0.25rem;
+}
+
+.list-section { margin-top: 2rem; }
+.list-section h2 { font-size: 1.15rem; margin-bottom: 0.75rem; }
+.muted { color: #6b7280; font-size: 0.9rem; }
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.task-item {
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 0.85rem 1rem;
+  background: #f9fafb;
+}
+
+.task-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+time {
+  font-size: 0.78rem;
+  color: #6b7280;
+  white-space: nowrap;
+}
+
+.task-desc {
+  margin: 0.4rem 0 0;
+  font-size: 0.9rem;
+  color: #4b5563;
+  white-space: pre-line;
+}
